@@ -1,0 +1,285 @@
+@import 'maket-0.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* font-family: 'Roboto'; */
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&display=swap');
+/* font-family: 'Fira Sans'; */
+
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
+/* font-family: 'Scheherazade New'; */
+
+.project:hover {
+    cursor: default;
+}
+
+/* шапка сайта */
+
+.font-for-navigation {
+    font-family: 'Fira Sans';
+    font-size: 20px;
+    color: white;
+    padding-right: 22px;
+    font-weight: 600;
+}
+.font-for-navigation:hover {
+    cursor: pointer;
+    color: #a68dc2;
+    /* transition: 3s linear; */
+}
+
+.first-section-wrapper {
+    width: 100%;
+    background-color: #4C3D74;
+}
+
+.wrapper-line {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-bar-wrapper {
+    width: 90%;
+}
+
+.course-representative-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0px;
+}
+
+.left-block-navigation {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-block-wrapper {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+.intensive-presentation {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 150px;
+}
+
+.first-in-world {
+    font-family: 'Fira Sans';
+    font-size: 23px;
+    color: white;
+    font-weight: 600;
+    padding: 25px 0px;
+    margin-top: 100px;
+}
+
+.speed-title {
+    font-family: 'Fira Sans';
+    font-size: 45px;
+    color: white;
+    font-weight: 600;
+    padding: 25px 0px;
+}
+
+.want-4d-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.want-4d {
+    font-family: 'Fira Sans';
+    font-size: 23px;
+    color: white;
+    font-weight: 600;
+    padding: 20px 0px 5px 0px;
+}
+
+.teach-you {
+    font-family: 'Fira Sans';
+    font-size: 23px;
+    color: white;
+    font-weight: 600;
+    /* padding: 25px 0px; */
+}
+
+.right-block-wrapper {
+    width: 40%;
+}
+
+.memoji-block {
+    padding-left: 200px;
+}
+
+.button-block-wrapper {
+    display: flex;
+    margin: 40px 0px;
+}
+
+.btn-form {
+    width: 245px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-family: 'Fira Sans';
+    font-weight: 600;
+    color: white;
+    background-color: transparent;
+    border: 3px solid #A387C4;
+}
+
+.btn-form:hover {
+    background-color: #a68dc2;
+    border: 3px solid #5e4e8a;
+    -webkit-box-shadow: 11px 11px 20px 4px rgba(223, 159, 231, 0.2);
+    -moz-box-shadow: 11px 11px 20px 4px rgba(223, 159, 231, 0.2);
+    box-shadow: 11px 11px 20px 4px rgba(223, 159, 231, 0.2);
+}
+
+.program-btn {
+    margin-left: 30px;
+}
+
+/* 2 секция */
+
+.second-section-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f9f6f8;
+    align-items: center;
+}
+
+.content-second-section {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.for-intensive-title {
+    width: 100%;
+    text-align: center;
+    font-family: 'Fira Sans';
+    font-size: 50px;
+    line-height: 2px;
+    color: #504178;
+    font-weight: 600;
+    padding: 25px 0px;
+    margin-top: 100px;
+}
+
+.quality-lashmaker-wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 0px;
+}
+
+.windows-hape {
+    width: 25%;
+    height: 140px;
+    background: #f2eef7;
+    border: 3px solid #4c3d74;
+    border-radius: 30px;
+    position: relative;
+}
+
+.wrapper-text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 0 6% 0 12%;
+}
+
+.text-content-wrapper {
+    /* width: 90%; */
+}
+
+.lashmaker-text-light {
+    font-family: 'Fira Sans';
+    font-size: 20px;
+    color: #504178;
+}
+
+.lashmaker-text-bold {
+    font-family: 'Fira Sans';
+    font-size: 20px;
+    color: #504178;
+    font-weight: 600;
+}
+
+.first-card-img {
+    position: absolute;
+    left: -60px;
+    top: 10px;
+}
+
+.energy-boost-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 140px;
+
+}
+
+.energy-boost-content {
+    width: 90%;
+    display: flex;
+}
+
+.energy-boost-text {
+    width: 45%;
+    font-family: 'Fira Sans';
+    font-size: 24px;
+    color: #504178;
+    font-weight: 600;
+}
+
+.btn-form1 {
+    width: 245px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-family: 'Fira Sans';
+    font-weight: 600;
+    color: white;
+    background-color: transparent;
+    border: 3px solid #A387C4;
+    background-color: #a68dc2;
+    border: 3px solid #5e4e8a;
+}
+
+.btn-form1:hover {
+    background-color: #5e4e8a;
+    border: 3px solid #a68dc2;
+    -webkit-box-shadow: 11px 11px 20px 4px rgba(72, 13, 80, 0.2);
+    -moz-box-shadow: 11px 11px 20px 4px rgba(84, 38, 90, 0.2);
+    box-shadow: 11px 11px 20px 4px rgba(48, 22, 51, 0.2);
+}
+
+.bottom-memoji {
+    position: absolute;
+    top: 370px;
+    right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
