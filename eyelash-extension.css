@@ -400,13 +400,20 @@
 
 .key-points-wrapper {
     display: flex;
-    /* flex-direction: column; */
     margin-top: 20px;
+    width: 100%;
+}
+
+.key-points-wrapper2 {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 50px;
     width: 100%;
 }
 
 .time-and-experience {
     display: flex;
+    width: 50%;
 }
 
 .block-time h1 {
@@ -423,10 +430,6 @@
     color: #ffffff;
 }
 
-.block-experience {
-    margin-left: 80px;
-}
-
 .block-experience h1 {
     font-size: 42px;
     font-weight: 600;
@@ -441,6 +444,9 @@
     color: #ffffff;
 }
 
-
+.right-block-information img {
+    height: 455px;
+    width: 375px;
+}
 
 
