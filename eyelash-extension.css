@@ -225,7 +225,6 @@
     display: flex;
     justify-content: center;
     margin-bottom: 140px;
-
 }
 
 .energy-boost-content {
@@ -365,6 +364,7 @@
 .information-block-wrapper {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 120px;
 }
 
 .left-block-information {
@@ -385,9 +385,6 @@
     color: #ffffff;
     font-family: 'Fira Sans';
     line-height: 20px;
-}
-.right-block-information {
-
 }
 
 .first-paragraph span {
@@ -448,5 +445,247 @@
     height: 455px;
     width: 375px;
 }
+
+/* четвертая секция */
+
+.fourth-section {
+    width: 100%;
+    background-color: #f9f6f8;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.intensive-program-wrapper {
+    width: 90%;
+}
+
+.intensive-program-title {
+    width: 100%;
+    text-align: center;
+    font-family: 'Fira Sans';
+    font-size: 50px;
+    line-height: 2px;
+    color: #4C3D74;
+    font-weight: 600;
+    padding: 25px 0;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.lesson-block-wrapper {
+    width: 100%;
+}
+
+.lesson-form {
+    width: 100%;
+    font-size: 22px;
+    font-weight: 600;
+    color: #4C3D74;
+    font-family: 'Fira Sans';
+    padding: 20px 0;
+    border-top: 3px solid #4C3D74;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lesson-form-plus {
+    font-size: 22px;
+    font-weight: 600;
+    color: #4C3D74;
+}
+
+.last-lesson-form {
+    width: 100%;
+    font-size: 22px;
+    font-weight: 600;
+    color: #4C3D74;
+    font-family: 'Fira Sans';
+    padding: 20px 0;
+    border-top: 3px solid #4C3D74;
+    border-bottom: 3px solid #4C3D74;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.still-thinking {
+    width: 90%;
+    display: flex;
+    margin-bottom: 90px;
+}
+
+.still-thinking-text {
+    width: 45%;
+    font-family: 'Fira Sans';
+    font-size: 24px;
+    color: #504178;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+.bottom-memoji2 {
+    position: absolute;
+    top: 800px;
+    right: 200px;
+}
+
+.bottom-memoji2 img {
+    height: 180px;
+}
+
+
+/* пятая секция  */
+
+.fifth-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #4C3D74;
+}
+
+.rates-wrapper {
+    width: 90%;
+}
+
+.rates-title {
+    width: 100%;
+    text-align: center;
+    font-family: 'Fira Sans';
+    font-size: 50px;
+    line-height: 2px;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 25px 0;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.tariff-cards-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 110px;
+}
+
+.first-tariff-card {
+    background-color: #f9f6f8;
+    width: 30%;
+    border: 3px solid #4C3D74;
+    border-radius: 30px;
+    position: relative;
+}
+
+.second-tariff-card {
+    background-color: #f9f6f8;
+    width: 30%;
+    border: 3px solid #4C3D74;
+    border-radius: 30px;
+    position: relative;
+}
+
+.third-tariff-card {
+    background-color: #f9f6f8;
+    width: 30%;
+    border: 3px solid #4C3D74;
+    border-radius: 30px;
+    position: relative;
+}
+
+.independent-title {
+    padding-top: 50px;
+    font-family: 'Fira Sans';
+    font-size: 20px;
+    color: #4c3d74;
+    margin-left: 35px;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+
+.independent-text-wrapper {
+    display: flex;
+    margin-bottom: 13px;
+    padding-right: 30px;
+}
+
+.independent-plus{
+    margin-right: 8px;
+    font-size: 22px;
+    color: #4C3D74;
+    font-weight: 600;
+    margin-left: 35px;
+}
+
+.independent-text {
+    font-family: 'Fira Sans';
+    font-size: 15px;
+    color: #4C3D74;
+    margin-left: 5px;
+    font-weight: 600;
+    /* margin-left: 35px; */
+    /* padding-bottom: 9px; */
+}
+
+.independent-text-minus {
+    font-family: 'Fira Sans';
+    font-size: 15px;
+    color: #4C3D74;
+    margin-left: 5px;
+    text-decoration: line-through;
+    font-weight: 600;
+}
+
+.duration-text {
+    padding-top: 12px;
+    font-family: 'Fira Sans';
+    font-size: 20px;
+    color: #4c3d74;
+    margin-left: 35px;
+    /* padding-bottom: 20px; */
+    font-weight: 600;
+}
+
+.intensive-date {
+    padding-top: 12px;
+    font-family: 'Fira Sans';
+    font-size: 20px;
+    color: #4c3d74;
+    margin-left: 35px;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+
+.rates-memoji {
+    position: absolute;
+    left: 300px;
+    top: -55px;
+}
+
+.pre-recording {
+    position: absolute;
+    bottom: -35px;
+    left: 44px;
+}
+
+.post-story-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 90px;
+}
+
+.post-emoji-wrapper {
+    margin-right: 25px;
+}
+
+.post-story-text {
+    width: 45%;
+    font-family: 'Fira Sans';
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+
 
 
