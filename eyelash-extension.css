@@ -3,20 +3,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 /* font-family: 'Roboto'; */
 
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&display=swap'); */
 /* font-family: 'Fira Sans'; */
 
-@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap'); */
 /* font-family: 'Scheherazade New'; */
 
 .project:hover {
     cursor: default;
 }
 
+* {
+font-family: 'Roboto', sans-serif;
+
+}
+
 /* шапка сайта */
 
 .font-for-navigation {
-    font-family: 'Fira Sans';
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     color: white;
     padding-right: 22px;
@@ -68,7 +73,7 @@
 }
 
 .first-in-world {
-    font-family: 'Fira Sans';
+    font-family: 'Roboto', sans-serif;
     font-size: 23px;
     color: white;
     font-weight: 600;
@@ -77,7 +82,7 @@
 }
 
 .speed-title {
-    font-family: 'Fira Sans';
+    font-family: 'Roboto', sans-serif;
     font-size: 45px;
     color: white;
     font-weight: 600;
@@ -90,7 +95,7 @@
 }
 
 .want-4d {
-    font-family: 'Fira Sans';
+    font-family: 'Roboto', sans-serif;
     font-size: 23px;
     color: white;
     font-weight: 600;
@@ -98,7 +103,7 @@
 }
 
 .teach-you {
-    font-family: 'Fira Sans';
+    font-family: 'Roboto', sans-serif;
     font-size: 23px;
     color: white;
     font-weight: 600;
@@ -123,7 +128,7 @@
     height: 60px;
     border-radius: 30px;
     font-size: 16px;
-    font-family: 'Fira Sans';
+    font-family: 'Roboto', sans-serif;
     font-weight: 600;
     color: white;
     background-color: transparent;
@@ -164,7 +169,7 @@
 .for-intensive-title {
     width: 100%;
     text-align: center;
-    font-family: 'Fira Sans';
+    font-family: 'Roboto', sans-serif;
     font-size: 50px;
     line-height: 2px;
     color: #504178;
@@ -202,13 +207,13 @@
 }
 
 .lashmaker-text-light {
-    font-family: 'Fira Sans';
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     color: #504178;
 }
 
 .lashmaker-text-bold {
-    font-family: 'Fira Sans';
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     color: #504178;
     font-weight: 600;
@@ -234,7 +239,7 @@
 
 .energy-boost-text {
     width: 45%;
-    font-family: 'Fira Sans';
+    font-family: 'Roboto', sans-serif;
     font-size: 24px;
     color: #504178;
     font-weight: 600;
@@ -245,7 +250,7 @@
     height: 60px;
     border-radius: 30px;
     font-size: 16px;
-    font-family: 'Fira Sans';
+    font-family: 'Roboto', sans-serif;
     font-weight: 600;
     color: white;
     background-color: transparent;
@@ -286,7 +291,7 @@
 .intensive-content-title {
     width: 100%;
     text-align: center;
-    font-family: 'Fira Sans';
+    font-family: 'Roboto', sans-serif;
     font-size: 50px;
     line-height: 2px;
     color: #ffffff;
@@ -351,7 +356,7 @@
 .information-about-speaker-text {
     width: 100%;
     text-align: center;
-    font-family: 'Fira Sans';
+    font-family: 'Roboto', sans-serif;
     font-size: 50px;
     line-height: 2px;
     color: #ffffff;
@@ -375,7 +380,7 @@
     font-size: 16px;
     padding-bottom: 25px;
     color: #ffffff;
-    font-family: 'Fira Sans';
+    font-family: 'Roboto', sans-serif;
     line-height: 20px;
 }
 
@@ -383,7 +388,7 @@
     font-size: 16px;
     padding-bottom: 25px;
     color: #ffffff;
-    font-family: 'Fira Sans';
+    font-family: 'Roboto', sans-serif;
     line-height: 20px;
 }
 
@@ -416,13 +421,13 @@
 .block-time h1 {
     font-size: 42px;
     font-weight: 600;
-    font-family: 'Fira Sans';
+    font-family: 'Roboto', sans-serif;
     color: #ffffff;
     margin-bottom: 7px;
 }
 
 .block-time span {
-    font-family: 'Fira Sans';
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #ffffff;
 }
@@ -430,13 +435,13 @@
 .block-experience h1 {
     font-size: 42px;
     font-weight: 600;
-    font-family: 'Fira Sans';
+    font-family: 'Roboto', sans-serif;
     color: #ffffff;
     margin-bottom: 7px;
 }
 
 .block-experience span {
-    font-family: 'Fira Sans';
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #ffffff;
 }
@@ -453,17 +458,36 @@
     background-color: #f9f6f8;
     display: flex;
     justify-content: center;
-    position: relative;
+    /* position: relative; */
 }
 
 .intensive-program-wrapper {
     width: 90%;
 }
 
+.visible-text-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    /* padding-bottom: 10px; */
+}
+
+.d-none-wrapper {
+    width: 100%;
+    color: #4C3D74;
+    padding-top: 16px;
+    display: none;
+}
+.d-none-wrapper p {
+    font-weight: 500;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
 .intensive-program-title {
     width: 100%;
     text-align: center;
-    font-family: 'Fira Sans';
+    font-family: 'Roboto', sans-serif;
     font-size: 50px;
     line-height: 2px;
     color: #4C3D74;
@@ -481,12 +505,13 @@
     width: 100%;
     font-size: 22px;
     font-weight: 600;
-    color: #4C3D74;
-    font-family: 'Fira Sans';
+    color: #4c3d74;
+    font-family: Roboto,sans-serif;
     padding: 20px 0;
-    border-top: 3px solid #4C3D74;
+    border-top: 3px solid #4c3d74;
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
 }
 
 .lesson-form-plus {
@@ -500,12 +525,13 @@
     font-size: 22px;
     font-weight: 600;
     color: #4C3D74;
-    font-family: 'Fira Sans';
+    font-family: 'Roboto', sans-serif;
     padding: 20px 0;
     border-top: 3px solid #4C3D74;
     border-bottom: 3px solid #4C3D74;
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
     margin-bottom: 40px;
 }
 
@@ -517,7 +543,7 @@
 
 .still-thinking-text {
     width: 45%;
-    font-family: 'Fira Sans';
+    font-family: 'Roboto', sans-serif;
     font-size: 24px;
     color: #504178;
     font-weight: 600;
@@ -526,8 +552,9 @@
 
 .bottom-memoji2 {
     position: absolute;
-    top: 800px;
-    right: 200px;
+    /* top: 800px; */
+    right: 20px;
+    bottom: 0px;
 }
 
 .bottom-memoji2 img {
@@ -551,7 +578,7 @@
 .rates-title {
     width: 100%;
     text-align: center;
-    font-family: 'Fira Sans';
+    font-family: 'Roboto', sans-serif;
     font-size: 50px;
     line-height: 2px;
     color: #ffffff;
@@ -570,7 +597,7 @@
 
 .first-tariff-card {
     background-color: #f9f6f8;
-    width: 30%;
+    width: 390px;
     border: 3px solid #4C3D74;
     border-radius: 30px;
     position: relative;
@@ -578,7 +605,7 @@
 
 .second-tariff-card {
     background-color: #f9f6f8;
-    width: 30%;
+    width: 390px;
     border: 3px solid #4C3D74;
     border-radius: 30px;
     position: relative;
@@ -586,7 +613,7 @@
 
 .third-tariff-card {
     background-color: #f9f6f8;
-    width: 30%;
+    width: 390px;
     border: 3px solid #4C3D74;
     border-radius: 30px;
     position: relative;
@@ -594,7 +621,7 @@
 
 .independent-title {
     padding-top: 50px;
-    font-family: 'Fira Sans';
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     color: #4c3d74;
     margin-left: 35px;
@@ -617,7 +644,7 @@
 }
 
 .independent-text {
-    font-family: 'Fira Sans';
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
     color: #4C3D74;
     margin-left: 5px;
@@ -627,7 +654,7 @@
 }
 
 .independent-text-minus {
-    font-family: 'Fira Sans';
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
     color: #4C3D74;
     margin-left: 5px;
@@ -637,7 +664,8 @@
 
 .duration-text {
     padding-top: 12px;
-    font-family: 'Fira Sans';
+    /* font-family: 'Fira Sans'; */
+    font-family: 'Roboto', sans-serif; 
     font-size: 20px;
     color: #4c3d74;
     margin-left: 35px;
@@ -647,7 +675,8 @@
 
 .intensive-date {
     padding-top: 12px;
-    font-family: 'Fira Sans';
+    /* font-family: 'Fira Sans'; */
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     color: #4c3d74;
     margin-left: 35px;
@@ -664,7 +693,7 @@
 .pre-recording {
     position: absolute;
     bottom: -35px;
-    left: 44px;
+    left: 42px;
 }
 
 .post-story-wrapper {
@@ -680,12 +709,96 @@
 
 .post-story-text {
     width: 45%;
-    font-family: 'Fira Sans';
+    /* font-family: 'Fira Sans'; */
+    font-family: 'Roboto', sans-serif;
     font-size: 24px;
     color: #ffffff;
     font-weight: 600;
 }
 
+/* шестая секция */
+
+.sixth-section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #f9f6f8;
+}
+
+.intensive-program-wrapper {
+    width: 90%;
+    position: relative;
+}
+
+.bottom-memoji3 {
+    position: absolute;
+    /* top: 540px; */
+    right: 20px;
+    bottom: 0px;
+}
+
+.bottom-memoji3 img {
+    height: 180px;
+}
 
 
 
+/* подвал */
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #4c3d74;
+}
+
+.footer-wrapper {
+    
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.first-line-footer-wrapper {
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 0px 40px 0px;
+}
+
+.julia {
+    color: white;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.up {
+    color: white;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.privacy-policy {
+    color: white;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.second-line-footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 40px 0px;
+}
+
+.up2 {
+    color: white;
+    font-size: 20px;
+    margin-right: 140px;
+}
+
+.julia2 {
+    color: white;
+    font-size: 20px;
+    width: 152px;
+}
