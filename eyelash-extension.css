@@ -15,13 +15,11 @@
 
 * {
 font-family: 'Roboto', sans-serif;
-
 }
 
 /* шапка сайта */
 
 .font-for-navigation {
-    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     color: white;
     padding-right: 22px;
@@ -30,7 +28,6 @@ font-family: 'Roboto', sans-serif;
 .font-for-navigation:hover {
     cursor: pointer;
     color: #a68dc2;
-    /* transition: 3s linear; */
 }
 
 .first-section-wrapper {
@@ -73,7 +70,6 @@ font-family: 'Roboto', sans-serif;
 }
 
 .first-in-world {
-    font-family: 'Roboto', sans-serif;
     font-size: 23px;
     color: white;
     font-weight: 600;
@@ -82,7 +78,6 @@ font-family: 'Roboto', sans-serif;
 }
 
 .speed-title {
-    font-family: 'Roboto', sans-serif;
     font-size: 45px;
     color: white;
     font-weight: 600;
@@ -95,7 +90,6 @@ font-family: 'Roboto', sans-serif;
 }
 
 .want-4d {
-    font-family: 'Roboto', sans-serif;
     font-size: 23px;
     color: white;
     font-weight: 600;
@@ -103,19 +97,19 @@ font-family: 'Roboto', sans-serif;
 }
 
 .teach-you {
-    font-family: 'Roboto', sans-serif;
     font-size: 23px;
     color: white;
     font-weight: 600;
-    /* padding: 25px 0px; */
 }
 
 .right-block-wrapper {
+    display: flex;
     width: 40%;
+    justify-content: flex-end;
 }
 
-.memoji-block {
-    padding-left: 200px;
+.memoji-block img{
+    height: 500px;
 }
 
 .button-block-wrapper {
@@ -128,7 +122,6 @@ font-family: 'Roboto', sans-serif;
     height: 60px;
     border-radius: 30px;
     font-size: 16px;
-    font-family: 'Roboto', sans-serif;
     font-weight: 600;
     color: white;
     background-color: transparent;
@@ -169,7 +162,6 @@ font-family: 'Roboto', sans-serif;
 .for-intensive-title {
     width: 100%;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
     font-size: 50px;
     line-height: 2px;
     color: #504178;
@@ -198,22 +190,15 @@ font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
     padding: 0 6% 0 12%;
 }
 
-.text-content-wrapper {
-    /* width: 90%; */
-}
-
 .lashmaker-text-light {
-    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     color: #504178;
 }
 
 .lashmaker-text-bold {
-    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     color: #504178;
     font-weight: 600;
@@ -223,6 +208,10 @@ font-family: 'Roboto', sans-serif;
     position: absolute;
     left: -60px;
     top: 10px;
+}
+
+.first-card-img img{
+    height: 90px;
 }
 
 .energy-boost-wrapper {
@@ -239,7 +228,6 @@ font-family: 'Roboto', sans-serif;
 
 .energy-boost-text {
     width: 45%;
-    font-family: 'Roboto', sans-serif;
     font-size: 24px;
     color: #504178;
     font-weight: 600;
@@ -250,7 +238,6 @@ font-family: 'Roboto', sans-serif;
     height: 60px;
     border-radius: 30px;
     font-size: 16px;
-    font-family: 'Roboto', sans-serif;
     font-weight: 600;
     color: white;
     background-color: transparent;
@@ -269,10 +256,13 @@ font-family: 'Roboto', sans-serif;
 
 .bottom-memoji {
     position: absolute;
-    top: 370px;
     right: 20px;
+    bottom: 0px;
 }
 
+.bottom-memoji img {
+    height: 243px;
+}
 
 
 /* третья секция  */
@@ -291,7 +281,6 @@ font-family: 'Roboto', sans-serif;
 .intensive-content-title {
     width: 100%;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
     font-size: 50px;
     line-height: 2px;
     color: #ffffff;
@@ -314,6 +303,10 @@ font-family: 'Roboto', sans-serif;
 
 .intensive-card-img {
     display: flex;
+}
+
+.intensive-card-img img {
+    height: 55px;
 }
 
 .intensive-card-text {
@@ -356,7 +349,6 @@ font-family: 'Roboto', sans-serif;
 .information-about-speaker-text {
     width: 100%;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
     font-size: 50px;
     line-height: 2px;
     color: #ffffff;
@@ -380,7 +372,6 @@ font-family: 'Roboto', sans-serif;
     font-size: 16px;
     padding-bottom: 25px;
     color: #ffffff;
-    font-family: 'Roboto', sans-serif;
     line-height: 20px;
 }
 
@@ -388,7 +379,6 @@ font-family: 'Roboto', sans-serif;
     font-size: 16px;
     padding-bottom: 25px;
     color: #ffffff;
-    font-family: 'Roboto', sans-serif;
     line-height: 20px;
 }
 
@@ -421,13 +411,11 @@ font-family: 'Roboto', sans-serif;
 .block-time h1 {
     font-size: 42px;
     font-weight: 600;
-    font-family: 'Roboto', sans-serif;
     color: #ffffff;
     margin-bottom: 7px;
 }
 
 .block-time span {
-    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #ffffff;
 }
@@ -435,13 +423,11 @@ font-family: 'Roboto', sans-serif;
 .block-experience h1 {
     font-size: 42px;
     font-weight: 600;
-    font-family: 'Roboto', sans-serif;
     color: #ffffff;
     margin-bottom: 7px;
 }
 
 .block-experience span {
-    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #ffffff;
 }
@@ -458,7 +444,6 @@ font-family: 'Roboto', sans-serif;
     background-color: #f9f6f8;
     display: flex;
     justify-content: center;
-    /* position: relative; */
 }
 
 .intensive-program-wrapper {
@@ -469,7 +454,6 @@ font-family: 'Roboto', sans-serif;
     display: flex;
     width: 100%;
     justify-content: space-between;
-    /* padding-bottom: 10px; */
 }
 
 .d-none-wrapper {
@@ -487,7 +471,6 @@ font-family: 'Roboto', sans-serif;
 .intensive-program-title {
     width: 100%;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
     font-size: 50px;
     line-height: 2px;
     color: #4C3D74;
@@ -525,7 +508,6 @@ font-family: 'Roboto', sans-serif;
     font-size: 22px;
     font-weight: 600;
     color: #4C3D74;
-    font-family: 'Roboto', sans-serif;
     padding: 20px 0;
     border-top: 3px solid #4C3D74;
     border-bottom: 3px solid #4C3D74;
@@ -543,16 +525,18 @@ font-family: 'Roboto', sans-serif;
 
 .still-thinking-text {
     width: 45%;
-    font-family: 'Roboto', sans-serif;
     font-size: 24px;
     color: #504178;
     font-weight: 600;
     margin-left: 50px;
 }
 
+.telegram-wrapper img {
+    height: 45px;
+}
+
 .bottom-memoji2 {
     position: absolute;
-    /* top: 800px; */
     right: 20px;
     bottom: 0px;
 }
@@ -578,7 +562,6 @@ font-family: 'Roboto', sans-serif;
 .rates-title {
     width: 100%;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
     font-size: 50px;
     line-height: 2px;
     color: #ffffff;
@@ -621,7 +604,6 @@ font-family: 'Roboto', sans-serif;
 
 .independent-title {
     padding-top: 50px;
-    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     color: #4c3d74;
     margin-left: 35px;
@@ -644,17 +626,13 @@ font-family: 'Roboto', sans-serif;
 }
 
 .independent-text {
-    font-family: 'Roboto', sans-serif;
     font-size: 15px;
     color: #4C3D74;
     margin-left: 5px;
     font-weight: 600;
-    /* margin-left: 35px; */
-    /* padding-bottom: 9px; */
 }
 
 .independent-text-minus {
-    font-family: 'Roboto', sans-serif;
     font-size: 15px;
     color: #4C3D74;
     margin-left: 5px;
@@ -664,19 +642,14 @@ font-family: 'Roboto', sans-serif;
 
 .duration-text {
     padding-top: 12px;
-    /* font-family: 'Fira Sans'; */
-    font-family: 'Roboto', sans-serif; 
     font-size: 20px;
     color: #4c3d74;
     margin-left: 35px;
-    /* padding-bottom: 20px; */
     font-weight: 600;
 }
 
 .intensive-date {
     padding-top: 12px;
-    /* font-family: 'Fira Sans'; */
-    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     color: #4c3d74;
     margin-left: 35px;
@@ -688,6 +661,10 @@ font-family: 'Roboto', sans-serif;
     position: absolute;
     left: 300px;
     top: -55px;
+}
+
+.rates-memoji img{
+    height: 130px;
 }
 
 .pre-recording {
@@ -707,10 +684,12 @@ font-family: 'Roboto', sans-serif;
     margin-right: 25px;
 }
 
+.post-emoji-wrapper img {
+    height: 65px;
+}
+
 .post-story-text {
     width: 45%;
-    /* font-family: 'Fira Sans'; */
-    font-family: 'Roboto', sans-serif;
     font-size: 24px;
     color: #ffffff;
     font-weight: 600;
