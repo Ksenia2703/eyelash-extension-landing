@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <link id="mainThemeCss" rel="stylesheet" href="eyelash-extension.min.css?v=2">
+    <link id="mainThemeCss" rel="stylesheet" href="eyelash-extension.min.css?v=3">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
     <title>eyelash extension</title>
     <body link="white" vlink="white" alink="white" bgcolor="white">
 </head>
@@ -19,7 +21,7 @@
                             <div>ЮЛИИ ВОРМАН</div>
                         </div>
                         <div class="left-block-navigation">
-                            <div class="for-whom font-for-navigation">
+                            <div class="for-whom font-for-navigation for-whom-scroll">
                                 ДЛЯ КОГО?
                             </div>
                             <div class="what-will-happen font-for-navigation">
@@ -52,8 +54,8 @@
                         </div>
                     </div>
                     <div class="button-block-wrapper">
-                        <button class="btn-form">ЗАПИСАТЬСЯ</button>
-                        <button class="btn-form program-btn">ПРОГРАММА</button>
+                        <button class="btn-form btn-form-record">ЗАПИСАТЬСЯ</button>
+                        <button class="btn-form program-btn program-btn-scroll">ПРОГРАММА</button>
                     </div>
                 </div>
                 <div class="right-block-wrapper">
@@ -392,7 +394,7 @@
                     </div>
                 </div>
                 <div class="still-thinking">
-                    <button class="btn-form1">ЗАПИСАТЬСЯ</button>
+                    <button class="btn-form1 btn-form1-scroll">ЗАПИСАТЬСЯ</button>
                     <div class="still-thinking-text">
                         <p>Все еще думаешь?</p>
                         <p>А места разбирают уже сейчас</p>
@@ -665,7 +667,7 @@
                             <p>У ВАС ЕСТЬ ДРУГОЙ ВОПРОС?</p>
                             <p>НАПИШИТЕ МНЕ В ТЕЛЕГРАМ</p>
                         </div>
-                        <button class="btn-form1">НАПИСАТЬ</button>
+                        <a href="https://t.me/milst_37" target="_blank"><button class="btn-form1">НАПИСАТЬ</button></a> 
                     </div>
                     <div class="bottom-memoji3">
                         <img src="img/4.png" alt="">
@@ -679,7 +681,7 @@
         <div class="footer-wrapper">
             <div class="first-line-footer-wrapper">
                 <div class="julia">
-                    <a href="https://www.instagram.com/uliavorman/?hl=ru" target="_blank"> ЮЛИЯ ВОРМАН </a>
+                    <a href="https://www.instagram.com/__ne__interesno___/?hl=ru" target="_blank"> ЮЛИЯ ВОРМАН </a>
                 </div>
                 <div class="up">
                     НАВЕРХ
@@ -697,7 +699,7 @@
                 </div>
                 <div class="privacy-policy">
                     <a
-                        href="https://api.whatsapp.com/send?phone=79822555588&text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%AF%20%D0%BF%D0%B8%D1%88%D1%83%20%D1%81%20%D0%B2%D0%B0%D1%88%D0%B5%D0%B3%D0%BE%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%2C%20%D1%83%20%D0%BC%D0%B5%D0%BD%D1%8F%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%20%D0%BF%D0%BE%20%D0%B8%D0%BD%D1%82%D0%B5%D0%BD%D1%81%D0%B8%D0%B2%D1%83%3A%20%20" target="_blank">СВЯЗАТЬСЯ
+                        href="https://api.whatsapp.com/send?phone=79130621619&text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%AF%20%D0%BF%D0%B8%D1%88%D1%83%20%D1%81%20%D0%B2%D0%B0%D1%88%D0%B5%D0%B3%D0%BE%20%D1%81%D0%B0%D0%B9%D1%82%D0%B0%2C%20%D1%83%20%D0%BC%D0%B5%D0%BD%D1%8F%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81%20%D0%BF%D0%BE%20%D0%B8%D0%BD%D1%82%D0%B5%D0%BD%D1%81%D0%B8%D0%B2%D1%83%3A%20%20" target="_blank">СВЯЗАТЬСЯ
                         С НАМИ</a>
                 </div>
             </div>
@@ -705,4 +707,42 @@
     </div>
     
 </footer>
+
+<script>
+    $('.for-whom-scroll').on('click', function () {
+        $('html,body').animate({ scrollTop: $('.for-intensive-title').offset().top + "px" }, { duration: 1000 });
+    });
+
+    $('.what-will-happen').on('click', function () {
+        $('html,body').animate({ scrollTop: $('.intensive-content-title').offset().top + "px" }, { duration: 1000 });
+    });
+
+    $('.about-representatives').on('click', function () {
+        $('html,body').animate({ scrollTop: $('.information-about-speaker-text').offset().top + "px" }, { duration: 1000 });
+    });
+
+    $('.tariffs').on('click', function () {
+        $('html,body').animate({ scrollTop: $('.rates-title').offset().top + "px" }, { duration: 1000 });
+    });
+
+    $('.up').on('click', function () {
+        $('html,body').animate({ scrollTop: $('.course-representative-wrapper').offset().top + "px" }, { duration: 1000 });
+    });
+        
+    $('.btn-form1-scroll').on('click', function () {
+        $('html,body').animate({ scrollTop: $('.rates-title').offset().top + "px" }, { duration: 1000 });
+    });
+
+    $('.program-btn-scroll').on('click', function () {
+        $('html,body').animate({ scrollTop: $('.intensive-program-title').offset().top + "px" }, { duration: 1000 });
+    });
+
+    $('.btn-form-record').on('click', function () {
+        $('html,body').animate({ scrollTop: $('.rates-title').offset().top + "px" }, { duration: 1000 });
+    });
+</script>
+
 </html>
+
+
+
