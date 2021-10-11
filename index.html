@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <link id="mainThemeCss" rel="stylesheet" href="eyelash-extension.min.css?v=3">
+    <link id="mainThemeCss" rel="stylesheet" href="eyelash-extension.min.css?v=8">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,6 +12,36 @@
 </head>
 <body>
     <div class="project">
+
+        <div class="modal-wrapper">
+            <div class="md-registration">
+                <div class="modal-content">
+                    <div class="md-registration-title">
+                        Предварительная регистрация на интенсив по "Скоростному наращиванию ресниц"
+                    </div>
+                    <input class="registration-input" type="text" placeholder="Введите ваш эл. адрес">
+                    <input class="registration-input" type="text" placeholder="Введите ваше имя и фамилию">
+                    <input class="registration-input" type="text" placeholder="Введите ваш телефон">
+                    <div class="modal-inst-title">
+                        Укажите ваш ник в Инстаграме
+                    </div>
+                    <input class="registration-input-bottom" type="text">
+                    <button class="btn-form1 program-btn btn-left">ЗАПИСАТЬСЯ</button>
+                    <div class="consent-processing">
+                        <label>
+                            <input type="checkbox">
+                            <div class="lable-text">Я согласен на обработку моих персональных данных в соответствии с <a
+                                    href="https://intensive.vorman-academy.ru/saas/account/suspend"
+                                    target="_blank">Условиями</a> </div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="close-modal-wrapper">
+                <img src="img/icons8-48.png" alt="">
+            </div>
+        </div>
+
         <div class="first-section-wrapper">
             <div class="wrapper-line">
                 <div class="navigation-bar-wrapper">
@@ -34,6 +64,23 @@
                                 ТАРИФЫ
                             </div>
                         </div>
+
+
+                        <div class="burger-menu">
+                            <input id="menu-toggle" type="checkbox" />
+                            <label class="menu-btn" for="menu-toggle">
+                                <span></span>
+                            </label>
+                        
+                            <ul class="menubox">
+                                <li><a class="menu-item" href="#">Equipment</a></li>
+                                <li><a class="menu-item" href="#">About us</a></li>
+                                <li><a class="menu-item" href="#">Blog</a></li>
+                                <li><a class="menu-item" href="#">Account</a></li>
+                            </ul>
+                        </div>
+
+
                     </div>
                 </div> 
             </div>
@@ -73,52 +120,54 @@
                     ТЕБЕ НА ИНТЕНСИВ ЕСЛИ ТЫ
                 </div>
                 <div class="quality-lashmaker-wrapper">
-                    <div class="windows-hape">
-                        <div class="first-card-img">
-                            <img src="img/memoji1.png" alt="">
-                        </div>
-                        <div class="wrapper-text">
-                            <!-- <div class="text-content-wrapper"> -->
+                    <div class="windows-hape-wrapper">
+                        <div class="windows-hape">
+                            <div class="first-card-img">
+                                <img src="img/memoji1.png" alt="">
+                            </div>
+                            <div class="wrapper-text">
+                                <!-- <div class="text-content-wrapper"> -->
                                 <div class="lashmaker-text-light">
                                     ЛАШМЕЙКЕР, КОТОРЫЙ ДЕЛАЕТ НАРАЩИВАНИЕ
                                 </div>
                                 <div class="lashmaker-text-bold">
                                     ДОЛЬШЕ ОДНОГО ЧАСА?
                                 </div>
-                            <!-- </div>-->
+                                <!-- </div>-->
+                            </div>
                         </div>
                     </div>
-                    <div class="windows-hape">
-                        <div class="first-card-img">
-                            <img src="img/memoji2.png" alt="">
-                        </div>
-                        <div class="wrapper-text">
-                            <!-- <div class="text-content-wrapper"> -->
-                            <div class="lashmaker-text-light">
-                                МАСТЕР, КОТОРЫЙ ХОЧЕТ
+                    <div class="windows-hape-wrapper">
+                        <div class="windows-hape">
+                            <div class="first-card-img">
+                                <img src="img/memoji2.png" alt="">
                             </div>
-                            <div class="lashmaker-text-bold">
-                                ПОМЕНЯТЬ МЫШЛЕНИЕ
+                            <div class="wrapper-text">
+                                <div class="lashmaker-text-light">
+                                    МАСТЕР, КОТОРЫЙ ХОЧЕТ
+                                </div>
+                                <div class="lashmaker-text-bold">
+                                    ПОМЕНЯТЬ МЫШЛЕНИЕ
+                                </div>
+                                <div class="lashmaker-text-light">
+                                    О НАРАЩИВАНИИ РЕСНИЦ
+                                </div>
                             </div>
-                            <div class="lashmaker-text-light">
-                                О НАРАЩИВАНИИ РЕСНИЦ
-                            </div>
-                            <!-- </div>-->
                         </div>
                     </div>
-                    <div class="windows-hape">
-                        <div class="first-card-img">
-                            <img src="img/memoji3.png" alt="">
-                        </div>
-                        <div class="wrapper-text">
-                            <!-- <div class="text-content-wrapper"> -->
-                            <div class="lashmaker-text-light">
-                                СПЕЦИАЛИСТ, КОТОРОМУ НЕОБХОДИМЫ
+                    <div class="windows-hape-wrapper">
+                        <div class="windows-hape">
+                            <div class="first-card-img">
+                                <img src="img/memoji3.png" alt="">
                             </div>
-                            <div class="lashmaker-text-bold">
-                                ПОДДЕРЖКА И КОМЬЮНИТИ РЯДОМ
+                            <div class="wrapper-text">
+                                <div class="lashmaker-text-light">
+                                    СПЕЦИАЛИСТ, КОТОРОМУ НЕОБХОДИМЫ
+                                </div>
+                                <div class="lashmaker-text-bold">
+                                    ПОДДЕРЖКА И КОМЬЮНИТИ РЯДОМ
+                                </div>
                             </div>
-                            <!-- </div>-->
                         </div>
                     </div>
                 </div>
@@ -407,6 +456,7 @@
         </div>
 
         <div class="fifth-section">
+            <div class="popup-fade"></div>
             <div class="rates-wrapper">
                 <div class="rates-title">
                     ТАРИФЫ УЧАСТИЯ
@@ -740,6 +790,10 @@
     $('.btn-form-record').on('click', function () {
         $('html,body').animate({ scrollTop: $('.rates-title').offset().top + "px" }, { duration: 1000 });
     });
+
+    $('.program-btn').on('click', function () {
+            $('html,body').animate({ scrollTop: $('.intensive-program-title').offset().top + "px" }, { duration: 1000 });
+        });
 </script>
 
 </html>
