@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <link id="mainThemeCss" rel="stylesheet" href="eyelash-extension.min.css?v=14">
+    <link id="mainThemeCss" rel="stylesheet" href="eyelash-extension.min.css?v=23">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,7 +13,7 @@
 <body>
     <div class="project">
 
-        <div class="modal-wrapper">
+        <div id="modalWrapper" class="modal-wrapper d-none-modal-wrapper">
             <div class="md-registration">
                 <div class="modal-content">
                     <div class="md-registration-title">
@@ -25,8 +25,8 @@
                     <div class="modal-inst-title">
                         Укажите ваш ник в Инстаграме
                     </div>
-                    <input class="registration-input-bottom" type="text">
-                    <button class="btn-form1 program-btn btn-left">ЗАПИСАТЬСЯ</button>
+                    <input class="registration-input-bottom" type="text" placeholder="@">
+                    <button class="btn-form1 program-btn btn-left modal-btn">ЗАПИСАТЬСЯ</button>
                     <div class="consent-processing">
                         <label>
                             <input type="checkbox">
@@ -37,7 +37,7 @@
                     </div>
                 </div>
             </div>
-            <div class="close-modal-wrapper">
+            <div id="closeModal" class="close-modal-wrapper">
                 <img src="img/icons8-48.png" alt="">
             </div>
         </div>
@@ -73,10 +73,10 @@
                             </label>
                         
                             <ul class="menubox">
-                                <li><a class="menu-item" href="#">Equipment</a></li>
-                                <li><a class="menu-item" href="#">About us</a></li>
-                                <li><a class="menu-item" href="#">Blog</a></li>
-                                <li><a class="menu-item" href="#">Account</a></li>
+                                <li><a class="menu-item" href="#">ДЛЯ КОГО?</a></li>
+                                <li><a class="menu-item" href="#">ЧТО БУДЕТ?</a></li>
+                                <li><a class="menu-item" href="#">О ЮЛИИ</a></li>
+                                <li><a class="menu-item" href="#">ТАРИФЫ</a></li>
                             </ul>
                         </div>
 
@@ -312,7 +312,7 @@
                     ПРОГРАММА ИНТЕНСИВА
                 </div>
                 <div class="lesson-block-wrapper">
-                    <div class="lesson-form">
+                    <div id="lessonForm" class="lesson-form">
                         <div class="visible-text-wrapper">
                             <div class="lesson-form-txt">
                                 УРОК 1. ВВОДНЫЙ УРОК
@@ -456,7 +456,7 @@
         </div>
 
         <div class="fifth-section">
-            <div class="popup-fade"></div>
+            <div id="popupFade" class="popup-fade d-none-opacity"></div>
             <div class="rates-wrapper">
                 <div class="rates-title">
                     ТАРИФЫ УЧАСТИЯ
@@ -511,7 +511,7 @@
                         <div class="intensive-date">
                             скоро
                         </div>
-                        <button class="btn-form1 program-btn pre-recording">ПРЕДЗАПИСЬ</button>
+                        <button id="prerecord1" class="btn-form1 program-btn pre-recording">ПРЕДЗАПИСЬ</button>
                     </div>
 
                     <div class="second-tariff-card">
@@ -563,7 +563,7 @@
                         <div class="intensive-date">
                             скоро
                         </div>
-                        <button class="btn-form1 program-btn pre-recording">ПРЕДЗАПИСЬ</button>
+                        <button id="prerecord2" class="btn-form1 program-btn pre-recording">ПРЕДЗАПИСЬ</button>
                     </div>
 
                     <div class="third-tariff-card">
@@ -615,7 +615,7 @@
                         <div class="intensive-date">
                             скоро
                         </div>
-                        <button class="btn-form1 program-btn pre-recording">ПРЕДЗАПИСЬ</button>
+                        <button id="prerecord3" class="btn-form1 program-btn pre-recording">ПРЕДЗАПИСЬ</button>
                     </div>
                 </div>
 
@@ -635,7 +635,7 @@
 
         <div class="sixth-section">
                 <div class="intensive-program-wrapper">
-                    <div class="intensive-program-title">
+                    <div class="intensive-program-title intensive-program-title-bottom">
                         А ТАКИЕ ВОПРОСЫ МОГУТ БЫТЬ У ВАС
                     </div>
                     <div class="lesson-block-wrapper">
@@ -709,11 +709,11 @@
                         </div>
                     </div>
 
-                    <div class="still-thinking">
+                    <div class="still-thinking still-bottom">
                         <div class="telegram-wrapper">
                             <img src="img/telegram1.svg" alt="">
                         </div>
-                        <div class="still-thinking-text">
+                        <div class="still-thinking-text still-thinking-text-bottom">
                             <p>У ВАС ЕСТЬ ДРУГОЙ ВОПРОС?</p>
                             <p>НАПИШИТЕ МНЕ В ТЕЛЕГРАМ</p>
                         </div>
@@ -758,42 +758,44 @@
     
 </footer>
 
+<script src="js/eyelash-extension.min.js"></script>
+
 <script>
-    $('.for-whom-scroll').on('click', function () {
-        $('html,body').animate({ scrollTop: $('.for-intensive-title').offset().top + "px" }, { duration: 1000 });
-    });
+    // $('.for-whom-scroll').on('click', function () {
+    //     $('html,body').animate({ scrollTop: $('.for-intensive-title').offset().top + "px" }, { duration: 1000 });
+    // });
 
-    $('.what-will-happen').on('click', function () {
-        $('html,body').animate({ scrollTop: $('.intensive-content-title').offset().top + "px" }, { duration: 1000 });
-    });
+    // $('.what-will-happen').on('click', function () {
+    //     $('html,body').animate({ scrollTop: $('.intensive-content-title').offset().top + "px" }, { duration: 1000 });
+    // });
 
-    $('.about-representatives').on('click', function () {
-        $('html,body').animate({ scrollTop: $('.information-about-speaker-text').offset().top + "px" }, { duration: 1000 });
-    });
+    // $('.about-representatives').on('click', function () {
+    //     $('html,body').animate({ scrollTop: $('.information-about-speaker-text').offset().top + "px" }, { duration: 1000 });
+    // });
 
-    $('.tariffs').on('click', function () {
-        $('html,body').animate({ scrollTop: $('.rates-title').offset().top + "px" }, { duration: 1000 });
-    });
+    // $('.tariffs').on('click', function () {
+    //     $('html,body').animate({ scrollTop: $('.rates-title').offset().top + "px" }, { duration: 1000 });
+    // });
 
-    $('.up').on('click', function () {
-        $('html,body').animate({ scrollTop: $('.course-representative-wrapper').offset().top + "px" }, { duration: 1000 });
-    });
+    // $('.up').on('click', function () {
+    //     $('html,body').animate({ scrollTop: $('.course-representative-wrapper').offset().top + "px" }, { duration: 1000 });
+    // });
         
-    $('.btn-form1-scroll').on('click', function () {
-        $('html,body').animate({ scrollTop: $('.rates-title').offset().top + "px" }, { duration: 1000 });
-    });
+    // $('.btn-form1-scroll').on('click', function () {
+    //     $('html,body').animate({ scrollTop: $('.rates-title').offset().top + "px" }, { duration: 1000 });
+    // });
 
-    $('.program-btn-scroll').on('click', function () {
-        $('html,body').animate({ scrollTop: $('.intensive-program-title').offset().top + "px" }, { duration: 1000 });
-    });
+    // $('.program-btn-scroll').on('click', function () {
+    //     $('html,body').animate({ scrollTop: $('.intensive-program-title').offset().top + "px" }, { duration: 1000 });
+    // });
 
-    $('.btn-form-record').on('click', function () {
-        $('html,body').animate({ scrollTop: $('.rates-title').offset().top + "px" }, { duration: 1000 });
-    });
+    // $('.btn-form-record').on('click', function () {
+    //     $('html,body').animate({ scrollTop: $('.rates-title').offset().top + "px" }, { duration: 1000 });
+    // });
 
-    $('.program-btn').on('click', function () {
-            $('html,body').animate({ scrollTop: $('.intensive-program-title').offset().top + "px" }, { duration: 1000 });
-        });
+    // $('.program-btn').on('click', function () {
+    //         $('html,body').animate({ scrollTop: $('.intensive-program-title').offset().top + "px" }, { duration: 1000 });
+    //     });
 </script>
 
 </html>
