@@ -30,9 +30,9 @@ $('.btn-form-record').on('click', function () {
     $('html,body').animate({ scrollTop: $('.rates-title').offset().top + "px" }, { duration: 1000 });
 });
 
-// $('.program-btn').on('click', function () {
-//     $('html,body').animate({ scrollTop: $('.intensive-program-title').offset().top + "px" }, { duration: 1000 });
-// });
+$('.scroll').on('click', function () {
+    $('html,body').animate({ scrollTop: $('.intensive-program-title').offset().top + "px" }, { duration: 1000 });
+});
 
 
 let prerecord1 = document.getElementById('prerecord1');
@@ -45,10 +45,7 @@ let prerecord2 = document.getElementById('prerecord2');
 
 let prerecord3 = document.getElementById('prerecord3');
 
-let lessonForm = document.getElementById('lessonForm');
-
-
-
+// let lessonForm = document.getElementById('lessonForm');
 
 prerecord1.addEventListener('click', () => {
     popupFade.classList.remove('d-none-opacity');
@@ -72,10 +69,13 @@ closeModal.addEventListener('click', () => {
     overflow.classList.remove('overflow');
 });
 
-lessonForm.addEventListener('click', (e) => {
-//    let inf = lessonForm.lastChild; 
-   console.log(e.target);
-   console.dir(e.target);
-   console.dir(e.target.lastElementChild);
-    e.target.lastElementChild.classList.remove('d-none-wrapper');
-});
+
+
+let lessonFormList = document.getElementsByClassName('lesson-form');
+console.log(lessonFormList)
+for (let i = 0; i < lessonFormList.length; i++) {
+    lessonFormList[i].addEventListener('click', function() {
+        this.firstElementChild.classList.toggle('active');
+        this.lastElementChild.classList.toggle('d-none-wrapper');
+    });
+}
